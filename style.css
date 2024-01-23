@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.img1{
+    background-image: url(https://practice-project-html-css.vercel.app/Project%204/images/developer.png);
+    background-size: cover;
+    height: 700px;
+    width: 100%; 
+    background-repeat: no-repeat;
+    
+}  
+.name{
+    color: white;
+    margin-left: 350px;
+    font-size: 90px;
+    padding-top: 55px;
+}
+.name span{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.intro{
+    color: white;
+    margin-left: 350px;
+    font-size: x-large;
+    padding: 5px;
+    font-size: 70px;
+}
+.black{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    color: white; 
+    margin-top: 1px;
+    text-align: center; 
+    padding: 20px;
+    font-size: 50px;
+}
+.black span{
+    font-size: 100px;
+}
+.mainbox{
+    display: flex;
+    margin-left: 120px;
+}
+.box1,.box2,.box3{
+    background-color:rgb(255, 255, 255);
+    height: 400px;
+    width: 320px;
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-left: 70px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 3px 5px 5px black;
+    transition: 0.12 ease-in-out;
+}
+.box1img{
+    background-image: url(https://practice-project-html-css.vercel.app/Project%204/images/web.png);
+    height: 197px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.box1 h1,.box2 h1,.box3 h1{
+    font-size: xx-large;
+    margin: 8px;
+}
+.box1 p,.box2 p,.box3 p{
+    font-size: large;
+    margin: 10px;
+}
+.box:hover{
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px black;
+    transition: 0.12 ease-in-out;
+}
+.box2img{
+    background-image: url(https://practice-project-html-css.vercel.app/Project%204/images/mobile.png);
+    height: 197px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.box3img{
+    background-image: url(https://practice-project-html-css.vercel.app/Project%204/images/web.png);
+    height: 197px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.bottom{
+    display: flex;
+}
+.contact{
+    height: 200px;
+    width: 50%;
+    background-color: rgb(42, 92, 2);
+    margin-top: 50px;
+    padding: 50px;
+}
+.contact h1,.about h1{
+    font-size: xx-large;
+    color: white;
+}
+.contact p,.about p{
+    font-size: larger;
+    color: white;
+    margin-top: 10px;
+}
+.about{
+    height: 200px;
+    width: 50%;
+    background-color: rgb(199, 95, 15);
+    margin-top: 50px;
+    padding: 50px;
+}
+.bottomblack{
+    height: 70px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.bottomblack p{
+    padding:  20px;
+    font-size: larger;
+}
